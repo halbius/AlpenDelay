@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='US-ASCII' standalone='yes'?>
+<!-- AlpenDelay Page Tables. Row 4 = unten, Row 1 = oben. -->
+<PageTables vers='6.4.0.89'>
+	<PageTableLayouts>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC01'>
+			<Desc>AlpenDelay Mono</Desc>
+			<Layout>AlpenDelay_Mono</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC02'>
+			<Desc>AlpenDelay Stereo</Desc>
+			<Layout>AlpenDelay_Multi</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC03'>
+			<Desc>AlpenDelay LCR</Desc>
+			<Layout>AlpenDelay_Multi</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC04'>
+			<Desc>AlpenDelay LCRS</Desc>
+			<Layout>AlpenDelay_Multi</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC05'>
+			<Desc>AlpenDelay Quad</Desc>
+			<Layout>AlpenDelay_Multi</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC06'>
+			<Desc>AlpenDelay 5.0</Desc>
+			<Layout>AlpenDelay_Multi</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC07'>
+			<Desc>AlpenDelay 5.1</Desc>
+			<Layout>AlpenDelay_Multi</Layout>
+		</Plugin>
+		<PTLayout name='AlpenDelay_Mono'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_Multi'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='ChDelay4' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='ChDelay3' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='ChDelay2' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='ChDelay1' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='ChDelay8' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='ChDelay7' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='ChDelay6' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='ChDelay5' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='ChDelay4' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='ChDelay3' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='ChDelay2' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='ChDelay1' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='ChDelay8' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='ChDelay7' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='ChDelay6' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='ChDelay5' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>ChDelay1</ID></Page>
+				<Page num='5'><ID>ChDelay2</ID></Page>
+				<Page num='6'><ID>ChDelay3</ID></Page>
+				<Page num='7'><ID>ChDelay4</ID></Page>
+				<Page num='8'><ID>ChDelay5</ID></Page>
+				<Page num='9'><ID>ChDelay6</ID></Page>
+				<Page num='10'><ID>ChDelay7</ID></Page>
+				<Page num='11'><ID>ChDelay8</ID></Page>
+			</PageTable>
+		</PTLayout>
+	</PageTableLayouts>
+	<ControlNamesVariations>
+		<Ctrl ID='MasterDelay'>
+			<name typ='PgTL' sz='3'>Mst</name>
+			<name typ='PgTL' sz='6'>Master</name>
+		</Ctrl>
+		<Ctrl ID='UnitMode'>
+			<name typ='PgTL' sz='3'>Unt</name>
+			<name typ='PgTL' sz='4'>Unit</name>
+		</Ctrl>
+		<Ctrl ID='ChDelay1'>
+			<name typ='PgTL' sz='3'>D 1</name>
+			<name typ='PgTL' sz='5'>Dly 1</name>
+			<name typ='PgTL' sz='7'>Delay 1</name>
+		</Ctrl>
+		<Ctrl ID='ChDelay2'>
+			<name typ='PgTL' sz='3'>D 2</name>
+			<name typ='PgTL' sz='5'>Dly 2</name>
+			<name typ='PgTL' sz='7'>Delay 2</name>
+		</Ctrl>
+		<Ctrl ID='ChDelay3'>
+			<name typ='PgTL' sz='3'>D 3</name>
+			<name typ='PgTL' sz='5'>Dly 3</name>
+			<name typ='PgTL' sz='7'>Delay 3</name>
+		</Ctrl>
+		<Ctrl ID='ChDelay4'>
+			<name typ='PgTL' sz='3'>D 4</name>
+			<name typ='PgTL' sz='5'>Dly 4</name>
+			<name typ='PgTL' sz='7'>Delay 4</name>
+		</Ctrl>
+		<Ctrl ID='ChDelay5'>
+			<name typ='PgTL' sz='3'>D 5</name>
+			<name typ='PgTL' sz='5'>Dly 5</name>
+			<name typ='PgTL' sz='7'>Delay 5</name>
+		</Ctrl>
+		<Ctrl ID='ChDelay6'>
+			<name typ='PgTL' sz='3'>D 6</name>
+			<name typ='PgTL' sz='5'>Dly 6</name>
+			<name typ='PgTL' sz='7'>Delay 6</name>
+		</Ctrl>
+		<Ctrl ID='ChDelay7'>
+			<name typ='PgTL' sz='3'>D 7</name>
+			<name typ='PgTL' sz='5'>Dly 7</name>
+			<name typ='PgTL' sz='7'>Delay 7</name>
+		</Ctrl>
+		<Ctrl ID='ChDelay8'>
+			<name typ='PgTL' sz='3'>D 8</name>
+			<name typ='PgTL' sz='5'>Dly 8</name>
+			<name typ='PgTL' sz='7'>Delay 8</name>
+		</Ctrl>
+		<Ctrl ID='MasterBypassID'>
+			<name typ='PgTL' sz='3'>Byp</name>
+			<name typ='PgTL' sz='6'>Bypass</name>
+		</Ctrl>
+	</ControlNamesVariations>
+	<Editor vers='1.3.7.1'>
+		<DiscCtrls>
+			<CtrlID>MasterBypassID</CtrlID>
+			<CtrlID>UnitMode</CtrlID>
+			<CtrlID>MasterDelay</CtrlID>
+			<CtrlID>ChDelay1</CtrlID>
+			<CtrlID>ChDelay2</CtrlID>
+			<CtrlID>ChDelay3</CtrlID>
+			<CtrlID>ChDelay4</CtrlID>
+			<CtrlID>ChDelay5</CtrlID>
+			<CtrlID>ChDelay6</CtrlID>
+			<CtrlID>ChDelay7</CtrlID>
+			<CtrlID>ChDelay8</CtrlID>
+		</DiscCtrls>
+	</Editor>
+</PageTables>

@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "Mac (Clang)",
+      "includePath": ["${workspaceFolder}", "${env:HOME}/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces", "${env:HOME}/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces/ACF"],
+      "defines": ["DEBUG=1", "_DEBUG=1", "MAC=1"],
+      "compilerPath": "/usr/bin/clang++",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-x64"
+    },
+    {
+      "name": "Win32 (MSVC)",
+      "includePath": ["${workspaceFolder}", "${env:AAX_SDK_ROOT}/Interfaces", "${env:AAX_SDK_ROOT}/Interfaces/ACF"],
+      "defines": ["_DEBUG", "_WINDOWS", "WINDOWS_VERSION"],
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ],
+  "version": 4
+}

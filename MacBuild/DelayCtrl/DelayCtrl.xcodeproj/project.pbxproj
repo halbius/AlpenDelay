@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0000000000000000000001B /* DelayCtrl_AlgProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* DelayCtrl_AlgProc.cpp */; };
+		A0000000000000000000001C /* DelayCtrl_Describe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* DelayCtrl_Describe.cpp */; };
+		A0000000000000000000001D /* DelayCtrl_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* DelayCtrl_Parameters.cpp */; };
+		A0000000000000000000001E /* AAX_Exports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000001F /* AAX_Exports.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* AlpenDelay.aaxplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlpenDelay.aaxplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000013 /* DelayCtrl_AlgProc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DelayCtrl_AlgProc.cpp; path = ../../Source/DelayCtrl_AlgProc.cpp; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000014 /* DelayCtrl_Describe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DelayCtrl_Describe.cpp; path = ../../Source/DelayCtrl_Describe.cpp; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000015 /* DelayCtrl_Parameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DelayCtrl_Parameters.cpp; path = ../../Source/DelayCtrl_Parameters.cpp; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000016 /* DelayCtrl_Alg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DelayCtrl_Alg.h; path = ../../Source/DelayCtrl_Alg.h; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000017 /* DelayCtrl_Defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DelayCtrl_Defs.h; path = ../../Source/DelayCtrl_Defs.h; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000018 /* DelayCtrl_Describe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DelayCtrl_Describe.h; path = ../../Source/DelayCtrl_Describe.h; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000019 /* DelayCtrl_Parameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DelayCtrl_Parameters.h; path = ../../Source/DelayCtrl_Parameters.h; sourceTree = SOURCE_ROOT; };
+		A0000000000000000000001A /* DelayCtrlPages.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = DelayCtrlPages.xml; path = ../../Source/DelayCtrlPages.xml; sourceTree = SOURCE_ROOT; };
+		A0000000000000000000001F /* AAX_Exports.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AAX_Exports.cpp; path = "$(AAX_SDK_ROOT)/Interfaces/AAX_Exports.cpp"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0000000000000000000000A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000004 /* Source */,
+				A00000000000000000000006 /* AAX-SDK */,
+				A00000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000013 /* DelayCtrl_AlgProc.cpp */,
+				A00000000000000000000014 /* DelayCtrl_Describe.cpp */,
+				A00000000000000000000015 /* DelayCtrl_Parameters.cpp */,
+				A00000000000000000000016 /* DelayCtrl_Alg.h */,
+				A00000000000000000000017 /* DelayCtrl_Defs.h */,
+				A00000000000000000000018 /* DelayCtrl_Describe.h */,
+				A00000000000000000000019 /* DelayCtrl_Parameters.h */,
+				A0000000000000000000001A /* DelayCtrlPages.xml */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* AlpenDelay.aaxplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000006 /* AAX-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000001F /* AAX_Exports.cpp */,
+			);
+			name = "AAX-SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000007 /* AlpenDelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0000000000000000000000E /* Build configuration list for PBXNativeTarget "AlpenDelay" */;
+			buildPhases = (
+				A00000000000000000000009 /* Sources */,
+				A0000000000000000000000A /* Frameworks */,
+				A0000000000000000000000B /* Resources */,
+				A0000000000000000000000C /* Copy Page Table */,
+				AA7A75DC307CEADE00C5031A /* ShellScript */,
+				AA7A75DB307CDEFF00C5031A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlpenDelay;
+			packageProductDependencies = (
+			);
+			productName = AlpenDelay;
+			productReference = A00000000000000000000001 /* AlpenDelay.aaxplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A00000000000000000000007 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A0000000000000000000000D /* Build configuration list for PBXProject "DelayCtrl" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A00000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000007 /* AlpenDelay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0000000000000000000000B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0000000000000000000000C /* Copy Page Table */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Page Table";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/AlpenDelay.aaxplugin/Contents/Resources\"\ncp \"${SRCROOT}/../../Source/DelayCtrlPages.xml\" \"${BUILT_PRODUCTS_DIR}/AlpenDelay.aaxplugin/Contents/Resources/\"\n";
+		};
+		AA7A75DB307CDEFF00C5031A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Applications/PACEAntiPiracy/Eden/Fusion/bin/wraptool \\\n    sign \\\n    --verbose \\\n    --account halfman \\\n    --wcguid 77ECF690-328A-11F1-8115-00505692C25A \\\n    --signid QDL9Z59UMW \\\n    --in \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \\\n    --out \"/Users/Christian/Documents/CA-Dev/AlpenDelay/fertig\" \\\n    --autoinstall on\n";
+		};
+		AA7A75DC307CEADE00C5031A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nset -e\n\nPKGINFO=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/PkgInfo\"\n\nprintf 'TDMwPTul' > \"${PKGINFO}\"\n\necho \"PkgInfo created: ${PKGINFO}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000001B /* DelayCtrl_AlgProc.cpp in Sources */,
+				A0000000000000000000001C /* DelayCtrl_Describe.cpp in Sources */,
+				A0000000000000000000001D /* DelayCtrl_Parameters.cpp in Sources */,
+				A0000000000000000000001E /* AAX_Exports.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0000000000000000000000F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AAX_SDK_ROOT = "$(HOME)/Documents/CA-dev/avid/aax-sdk-2-9-0";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"_DEBUG=1",
+					"MAC=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(AAX_SDK_ROOT)/Interfaces",
+					"$(AAX_SDK_ROOT)/Interfaces/ACF",
+					"$(SRCROOT)/../../Source",
+				);
+				LIBRARY_SEARCH_PATHS = "$(AAX_SDK_ROOT)/Libs/Debug";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SYMROOT = "$(SRCROOT)/../../MacBuild/xcode/Products";
+			};
+			name = Debug;
+		};
+		A00000000000000000000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AAX_SDK_ROOT = "$(HOME)/Documents/CA-dev/avid/aax-sdk-2-9-0";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"MAC=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(AAX_SDK_ROOT)/Interfaces",
+					"$(AAX_SDK_ROOT)/Interfaces/ACF",
+					"$(SRCROOT)/../../Source",
+				);
+				LIBRARY_SEARCH_PATHS = "$(AAX_SDK_ROOT)/Libs/Release";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SYMROOT = "$(SRCROOT)/../../MacBuild/xcode/Products";
+			};
+			name = Release;
+		};
+		A00000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lAAXLibrary_libcpp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delayctrl.aax.alpendelay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/../../MacBuild/xcode/Products";
+				WRAPPER_EXTENSION = aaxplugin;
+			};
+			name = Debug;
+		};
+		A00000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lAAXLibrary_libcpp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delayctrl.aax.alpendelay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/../../MacBuild/xcode/Products";
+				WRAPPER_EXTENSION = aaxplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0000000000000000000000D /* Build configuration list for PBXProject "DelayCtrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0000000000000000000000F /* Debug */,
+				A00000000000000000000010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0000000000000000000000E /* Build configuration list for PBXNativeTarget "AlpenDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000011 /* Debug */,
+				A00000000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000008 /* Project object */;
+}

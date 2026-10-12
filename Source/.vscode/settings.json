@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "files.encoding": "utf8",
+  "files.associations": { "*.h": "cpp", "*.mm": "objective-cpp" },
+  "C_Cpp.default.cppStandard": "c++17",
+  "search.exclude": { "**/Debug": true, "**/Release": true, "**/*.aaxplugin": true }
+}
