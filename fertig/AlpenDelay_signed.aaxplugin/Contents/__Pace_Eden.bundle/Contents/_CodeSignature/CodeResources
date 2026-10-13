@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Signatures/codesign.dsig</key>
 		<data>
-		m01Pw+yvg9EQ0EvOzab0HQAgwFA=
+		Iw1uEyCk+dBStCtS22N0ZTI8Jl4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,11 +15,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m01Pw+yvg9EQ0EvOzab0HQAgwFA=
+			Iw1uEyCk+dBStCtS22N0ZTI8Jl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FwKxRPlzKabSvJ5OaqUOlyHqUuVP3bUFo4Yf9ILrx1A=
+			wzd/o/coRhOaLLvXmT4D9V99hED2CH1z7rjMQnmb9GE=
 			</data>
 		</dict>
 	</dict>

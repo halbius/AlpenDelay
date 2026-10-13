@@ -38,6 +38,7 @@ dependencies: \
   /Users/Christian/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces/AAX_IController.h \
   /Users/Christian/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces/AAX_CMutex.h \
   /Users/Christian/Documents/CA-Dev/AlpenDelay/Source/DelayCtrl_Defs.h \
+  /Users/Christian/Documents/CA-Dev/AlpenDelay/Source/DelayCtrl_Formats.h \
   /Users/Christian/Documents/CA-Dev/AlpenDelay/Source/DelayCtrl_Alg.h \
   /Users/Christian/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces/AAX_CBinaryTaperDelegate.h \
   /Users/Christian/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces/AAX_CLinearTaperDelegate.h

@@ -1,8 +1,8 @@
 {
   "buildCommand" : {
-    "command" : "build",
-    "skipDependencies" : false,
-    "style" : "buildOnly"
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
   },
   "configuredTargets" : [
     {
@@ -10,26 +10,12 @@
     }
   ],
   "containerPath" : "/Users/Christian/Documents/CA-Dev/AlpenDelay/MacBuild/DelayCtrl/DelayCtrl.xcodeproj",
-  "continueBuildingAfterErrors" : false,
+  "continueBuildingAfterErrors" : true,
   "dependencyScope" : "workspace",
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
   "parameters" : {
     "action" : "build",
-    "activeArchitecture" : "arm64",
-    "activeRunDestination" : {
-      "disableOnlyActiveArch" : false,
-      "hostTargetedPlatform" : null,
-      "platform" : "macosx",
-      "sdk" : "macosx26.5",
-      "sdkVariant" : "macos",
-      "supportedArchitectures" : [
-        "arm64e",
-        "arm64",
-        "x86_64"
-      ],
-      "targetArchitecture" : "arm64"
-    },
     "arenaInfo" : {
       "buildIntermediatesPath" : "",
       "buildProductsPath" : "",
@@ -44,15 +30,16 @@
       "synthesized" : {
         "table" : {
           "ENABLE_PREVIEWS" : "NO",
-          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
           "ONLY_ACTIVE_ARCH" : "YES"
         }
       }
     }
   },
+  "qos" : "default",
   "schemeCommand" : "launch",
   "showNonLoggedProgress" : true,
-  "useDryRun" : false,
+  "useDryRun" : true,
   "useImplicitDependencies" : true,
   "useLegacyBuildLocations" : false,
   "useParallelTargets" : true

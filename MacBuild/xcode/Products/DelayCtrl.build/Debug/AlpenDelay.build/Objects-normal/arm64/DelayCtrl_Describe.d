@@ -13,6 +13,7 @@ dependencies: \
   /Users/Christian/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces/AAX_Errors.h \
   /Users/Christian/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces/AAX_Properties.h \
   /Users/Christian/Documents/CA-Dev/AlpenDelay/Source/DelayCtrl_Defs.h \
+  /Users/Christian/Documents/CA-Dev/AlpenDelay/Source/DelayCtrl_Formats.h \
   /Users/Christian/Documents/CA-Dev/AlpenDelay/Source/DelayCtrl_Alg.h \
   /Users/Christian/Documents/CA-Dev/AlpenDelay/Source/DelayCtrl_Parameters.h \
   /Users/Christian/Documents/CA-dev/avid/aax-sdk-2-9-0/Interfaces/AAX_CEffectParameters.h \

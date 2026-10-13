@@ -12,28 +12,38 @@ enum EDelayCtrl_MeterTaps
     eMeterTap_Count
 };
 
-// Ring buffer: float buf[kRingBufFloats] + int32_t writeHead
-constexpr int32_t kRingBufFloats    = kDelayCtrl_MaxDelaySamples + 1;
-constexpr int32_t kRingBufDataBytes = kRingBufFloats * (int32_t)sizeof(float)
-                                    + (int32_t)sizeof(int32_t);
+// ============================================================================
+// Ringpuffer: ein einziger Private-Data-Block für alle Kanäle.
+// Pro Kanal: float buf[kRingBufFloats] + int32_t writeHead (16-Byte-aligned).
+// ============================================================================
+constexpr int32_t kRingBufFloats  = kDelayCtrl_MaxDelaySamples + 1;
+constexpr int32_t kRingBlockBytes = ((kRingBufFloats * (int32_t)sizeof(float)
+                                      + (int32_t)sizeof(int32_t)) + 15) / 16 * 16;
 
-inline float*   RingBuf_Buffer(void* block)
+inline int32_t DelayCtrl_RingBytes(int numChannels)
 {
-    return reinterpret_cast<float*>(block);
+    return numChannels * kRingBlockBytes;
 }
-inline int32_t& RingBuf_WriteHead(void* block)
+inline float* Ring_Buffer(void* block, int ch)
 {
-    return *reinterpret_cast<int32_t*>(
-        reinterpret_cast<char*>(block) + kRingBufFloats * sizeof(float));
+    return reinterpret_cast<float*>(static_cast<char*>(block) + (size_t)ch * kRingBlockBytes);
+}
+inline int32_t& Ring_WriteHead(void* block, int ch)
+{
+    return *reinterpret_cast<int32_t*>(static_cast<char*>(block)
+           + (size_t)ch * kRingBlockBytes + (size_t)kRingBufFloats * sizeof(float));
 }
 
+// ============================================================================
+// Koeffizienten (Parameters → DSP)
+// ============================================================================
 #include AAX_ALIGN_FILE_BEGIN
 #include AAX_ALIGN_FILE_ALG
 #include AAX_ALIGN_FILE_END
 
 struct SDelayCtrl_Coefs
 {
-    float   chDelaySamples[kDelayCtrl_MaxChannels];
+    float   chDelaySamples[kDelayCtrl_MaxChannels]; // float-Samples, DSP rundet
     int32_t numChannels;
 };
 
@@ -49,7 +59,7 @@ struct SDelayCtrl_Alg_Context
     float**           mOutputPP;
     int32_t*          mBufferSize;
     float**           mMetersPP;
-    void*             mRingBuf[kDelayCtrl_MaxChannels];
+    void*             mRingBuf;      // Private-Data-Block (alle Kanäle)
 };
 
 enum EDelayCtrl_Alg_PortID
@@ -60,14 +70,7 @@ enum EDelayCtrl_Alg_PortID
     ,eAlgFieldID_AudioOut   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mOutputPP)
     ,eAlgFieldID_BufferSize = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mBufferSize)
     ,eAlgFieldID_Meters     = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mMetersPP)
-    ,eAlgFieldID_RingBuf0   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf[0])
-    ,eAlgFieldID_RingBuf1   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf[1])
-    ,eAlgFieldID_RingBuf2   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf[2])
-    ,eAlgFieldID_RingBuf3   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf[3])
-    ,eAlgFieldID_RingBuf4   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf[4])
-    ,eAlgFieldID_RingBuf5   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf[5])
-    ,eAlgFieldID_RingBuf6   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf[6])
-    ,eAlgFieldID_RingBuf7   = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf[7])
+    ,eAlgFieldID_RingBuf    = AAX_FIELD_INDEX(SDelayCtrl_Alg_Context, mRingBuf)
 };
 
 void AAX_CALLBACK DelayCtrl_AlgorithmProcessFunction(

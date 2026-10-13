@@ -96,23 +96,25 @@ public:
     AAX_Result EffectInit()    AAX_OVERRIDE;
     AAX_Result TimerWakeup()   AAX_OVERRIDE;
 
-    AAX_Result NotificationReceived(AAX_CTypeID iType,
-                                    const void* iData,
-                                    uint32_t    iSize) AAX_OVERRIDE;
+    // Wird bei JEDER Parameteränderung (GUI, Surface, Automation) aufgerufen.
+    // Hier erkennen wir das Umschalten Samples <-> ms sofort.
+    AAX_Result UpdateParameterNormalizedValue(AAX_CParamID     iParameterID,
+                                              double           iValue,
+                                              AAX_EUpdateSource iSource) AAX_OVERRIDE;
 
     AAX_Result UpdateCoefs(AAX_CPacket& ioPacket);
 
 private:
-    void AddDelayParam(const char* paramID, const char* name, bool registerPacket);
+    void AddDelayParam(const char* paramID, const char* name,
+                       const char* shortName1, const char* shortName2);
     void RefreshSampleRate();
-    void RefreshUnitMode();
-    void MarkAllDelaysDirty();
+    void RepostDelayValues();   // zwingt Host/Surfaces zum Neuabfragen der Anzeige
 
-    AAX_EStemFormat mStemFormat;
+    const SDelayCtrl_Format* mFormat;
     int             mNumChannels;
-    float           mSampleRate;   // referenced by display delegates
-    bool            mUnitIsMs;     // referenced by display delegates
-    bool            mLastUnitIsMs; // detect toggle in TimerWakeup
+    float           mSampleRate;     // von den Display-Delegates gelesen
+    bool            mUnitIsMs;       // von den Display-Delegates gelesen
+    volatile bool   mUnitChanged;    // gesetzt in UpdateParameterNormalizedValue
 };
 
 #endif // DelayCtrl_PARAMETERS_H

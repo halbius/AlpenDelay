@@ -1,5 +1,5 @@
 // ============================================================================
-// DelayCtrl_Describe.cpp
+// DelayCtrl_Describe.cpp  –  registriert alle Formate aus DelayCtrl_Formats.h
 // ============================================================================
 
 #include "DelayCtrl_Describe.h"
@@ -15,26 +15,10 @@
 #include "AAX_Errors.h"
 #include "AAX_Assert.h"
 
-static AAX_CTypeID GetPlugInID(AAX_EStemFormat fmt)
-{
-    switch (fmt)
-    {
-        case AAX_eStemFormat_Mono:   return cDelayCtrl_PlugInID_Mono;
-        case AAX_eStemFormat_Stereo: return cDelayCtrl_PlugInID_Stereo;
-        case AAX_eStemFormat_LCR:    return cDelayCtrl_PlugInID_LCR;
-        case AAX_eStemFormat_LCRS:   return cDelayCtrl_PlugInID_LCRS;
-        case AAX_eStemFormat_Quad:   return cDelayCtrl_PlugInID_Quad;
-        case AAX_eStemFormat_5_0:    return cDelayCtrl_PlugInID_5_0;
-        case AAX_eStemFormat_5_1:    return cDelayCtrl_PlugInID_5_1;
-        default:                     return cDelayCtrl_PlugInID_Mono;
-    }
-}
-
 static void DescribeAlgorithmComponent(AAX_IComponentDescriptor* outDesc,
-                                        AAX_EStemFormat            stemFormat)
+                                        const SDelayCtrl_Format&  fmt)
 {
     AAX_CheckedResult err;
-    const int numCh = DelayCtrl_ChannelCount(stemFormat);
 
     err = outDesc->AddAudioIn(eAlgFieldID_AudioIn);
     err = outDesc->AddAudioOut(eAlgFieldID_AudioOut);
@@ -47,27 +31,21 @@ static void DescribeAlgorithmComponent(AAX_IComponentDescriptor* outDesc,
     err = outDesc->AddDataInPort(eAlgPortID_BypassIn, sizeof(int32_t));
     err = outDesc->AddDataInPort(eAlgPortID_CoefsIn,  sizeof(SDelayCtrl_Coefs));
 
-    // Per-channel ring buffers (only for active channels)
-    static const int kRingBufIDs[kDelayCtrl_MaxChannels] = {
-        eAlgFieldID_RingBuf0, eAlgFieldID_RingBuf1,
-        eAlgFieldID_RingBuf2, eAlgFieldID_RingBuf3,
-        eAlgFieldID_RingBuf4, eAlgFieldID_RingBuf5,
-        eAlgFieldID_RingBuf6, eAlgFieldID_RingBuf7,
-    };
-    for (int ch = 0; ch < numCh; ++ch)
-        err = outDesc->AddPrivateData(kRingBufIDs[ch], kRingBufDataBytes,
-                                      AAX_ePrivateDataOptions_DefaultOptions);
+    // Ein Private-Data-Block für alle Ringpuffer dieses Formats
+    err = outDesc->AddPrivateData(eAlgFieldID_RingBuf,
+                                  DelayCtrl_RingBytes(fmt.numChannels),
+                                  AAX_ePrivateDataOptions_DefaultOptions);
 
     AAX_IPropertyMap* props = outDesc->NewPropertyMap();
     if (!props) { err = AAX_ERROR_NULL_OBJECT; return; }
 
     err = props->AddProperty(AAX_eProperty_ManufacturerID,   cDelayCtrl_ManufactureID);
     err = props->AddProperty(AAX_eProperty_ProductID,        cDelayCtrl_ProductID);
-    err = props->AddProperty(AAX_eProperty_PlugInID_Native,  GetPlugInID(stemFormat));
+    err = props->AddProperty(AAX_eProperty_PlugInID_Native,  fmt.plugInID);
     err = props->AddProperty(AAX_eProperty_CanBypass,        true);
     err = props->AddProperty(AAX_eProperty_UsesClientGUI,    true);
-    err = props->AddProperty(AAX_eProperty_InputStemFormat,  stemFormat);
-    err = props->AddProperty(AAX_eProperty_OutputStemFormat, stemFormat);
+    err = props->AddProperty(AAX_eProperty_InputStemFormat,  fmt.stem);
+    err = props->AddProperty(AAX_eProperty_OutputStemFormat, fmt.stem);
     err = props->AddPointerProperty(AAX_eProperty_NativeProcessProc,
         reinterpret_cast<const void*>(&DelayCtrl_AlgorithmProcessFunction));
 
@@ -86,23 +64,15 @@ static AAX_Result DescribeEffect(AAX_IEffectDescriptor* outDesc)
     err = outDesc->AddName("AD");
     err = outDesc->AddCategory(AAX_ePlugInCategory_None);
 
-    const AAX_EStemFormat kFormats[7] = {
-        AAX_eStemFormat_Mono,
-        AAX_eStemFormat_Stereo,
-        AAX_eStemFormat_LCR,
-        AAX_eStemFormat_LCRS,
-        AAX_eStemFormat_Quad,
-        AAX_eStemFormat_5_0,
-        AAX_eStemFormat_5_1,
-    };
-
     AAX_IComponentDescriptor* compDesc = outDesc->NewComponentDescriptor();
     if (!compDesc) { err = AAX_ERROR_NULL_OBJECT; return err; }
 
-    for (int i = 0; i < 7; ++i)
+    int numFormats = 0;
+    const SDelayCtrl_Format* formats = DelayCtrl_Formats(&numFormats);
+    for (int i = 0; i < numFormats; ++i)
     {
         err = compDesc->Clear();
-        DescribeAlgorithmComponent(compDesc, kFormats[i]);
+        DescribeAlgorithmComponent(compDesc, formats[i]);
         err = outDesc->AddComponent(compDesc);
     }
 
@@ -111,7 +81,6 @@ static AAX_Result DescribeEffect(AAX_IEffectDescriptor* outDesc)
         kAAX_ProcPtrID_Create_EffectParameters);
     err = outDesc->AddResourceInfo(AAX_eResourceType_PageTable, "DelayCtrlPages.xml");
 
-    // Meters
     {
         AAX_IPropertyMap* mp = outDesc->NewPropertyMap();
         if (!mp) { err = AAX_ERROR_NULL_OBJECT; return err; }
@@ -126,7 +95,6 @@ static AAX_Result DescribeEffect(AAX_IEffectDescriptor* outDesc)
         err = mp->AddProperty(AAX_eProperty_Meter_Orientation, AAX_eMeterOrientation_Default);
         err = outDesc->AddMeterDescription(cDelayCtrl_MeterID[eMeterTap_PostGain], "Output", mp);
     }
-
     return err;
 }
 
@@ -143,7 +111,7 @@ AAX_Result GetEffectDescriptions(AAX_ICollection* outCollection)
     }
     else err = AAX_ERROR_NULL_OBJECT;
 
-    err = outCollection->SetManufacturerName("Your Company");
+    err = outCollection->SetManufacturerName("CPU (Christians PlugIn Units)");
     err = outCollection->AddPackageName("AlpenDelay");
     err = outCollection->AddPackageName("Alpen Delay");
     err = outCollection->AddPackageName("AlpDly");

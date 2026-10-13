@@ -1,36 +1,120 @@
 <?xml version='1.0' encoding='US-ASCII' standalone='yes'?>
-<!-- AlpenDelay Page Tables. Row 4 = unten, Row 1 = oben. -->
+<!-- AlpenDelay Page Tables (generiert). Row 4 = unten, Row 1 = oben. -->
 <PageTables vers='6.4.0.89'>
 	<PageTableLayouts>
 		<Plugin manID='DyCo' prodID='DyCp' plugID='DC01'>
 			<Desc>AlpenDelay Mono</Desc>
-			<Layout>AlpenDelay_Mono</Layout>
+			<Layout>AlpenDelay_DC01</Layout>
 		</Plugin>
 		<Plugin manID='DyCo' prodID='DyCp' plugID='DC02'>
 			<Desc>AlpenDelay Stereo</Desc>
-			<Layout>AlpenDelay_Multi</Layout>
+			<Layout>AlpenDelay_DC02</Layout>
 		</Plugin>
 		<Plugin manID='DyCo' prodID='DyCp' plugID='DC03'>
 			<Desc>AlpenDelay LCR</Desc>
-			<Layout>AlpenDelay_Multi</Layout>
+			<Layout>AlpenDelay_DC03</Layout>
 		</Plugin>
 		<Plugin manID='DyCo' prodID='DyCp' plugID='DC04'>
 			<Desc>AlpenDelay LCRS</Desc>
-			<Layout>AlpenDelay_Multi</Layout>
+			<Layout>AlpenDelay_DC04</Layout>
 		</Plugin>
 		<Plugin manID='DyCo' prodID='DyCp' plugID='DC05'>
 			<Desc>AlpenDelay Quad</Desc>
-			<Layout>AlpenDelay_Multi</Layout>
+			<Layout>AlpenDelay_DC05</Layout>
 		</Plugin>
 		<Plugin manID='DyCo' prodID='DyCp' plugID='DC06'>
 			<Desc>AlpenDelay 5.0</Desc>
-			<Layout>AlpenDelay_Multi</Layout>
+			<Layout>AlpenDelay_DC06</Layout>
 		</Plugin>
 		<Plugin manID='DyCo' prodID='DyCp' plugID='DC07'>
 			<Desc>AlpenDelay 5.1</Desc>
-			<Layout>AlpenDelay_Multi</Layout>
+			<Layout>AlpenDelay_DC07</Layout>
 		</Plugin>
-		<PTLayout name='AlpenDelay_Mono'>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC08'>
+			<Desc>AlpenDelay 7.0 SDDS</Desc>
+			<Layout>AlpenDelay_DC08</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC09'>
+			<Desc>AlpenDelay 7.1 SDDS</Desc>
+			<Layout>AlpenDelay_DC09</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC10'>
+			<Desc>AlpenDelay 7.0 DTS</Desc>
+			<Layout>AlpenDelay_DC10</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC11'>
+			<Desc>AlpenDelay 7.1 DTS</Desc>
+			<Layout>AlpenDelay_DC11</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC12'>
+			<Desc>AlpenDelay 5.0.2</Desc>
+			<Layout>AlpenDelay_DC12</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC13'>
+			<Desc>AlpenDelay 5.1.2</Desc>
+			<Layout>AlpenDelay_DC13</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC14'>
+			<Desc>AlpenDelay 5.0.4</Desc>
+			<Layout>AlpenDelay_DC14</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC15'>
+			<Desc>AlpenDelay 5.1.4</Desc>
+			<Layout>AlpenDelay_DC15</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC16'>
+			<Desc>AlpenDelay 7.0.2</Desc>
+			<Layout>AlpenDelay_DC16</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC17'>
+			<Desc>AlpenDelay 7.1.2</Desc>
+			<Layout>AlpenDelay_DC17</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC18'>
+			<Desc>AlpenDelay 7.0.4</Desc>
+			<Layout>AlpenDelay_DC18</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC19'>
+			<Desc>AlpenDelay 7.1.4</Desc>
+			<Layout>AlpenDelay_DC19</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC20'>
+			<Desc>AlpenDelay 7.0.6</Desc>
+			<Layout>AlpenDelay_DC20</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC21'>
+			<Desc>AlpenDelay 7.1.6</Desc>
+			<Layout>AlpenDelay_DC21</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC22'>
+			<Desc>AlpenDelay 9.0.4</Desc>
+			<Layout>AlpenDelay_DC22</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC23'>
+			<Desc>AlpenDelay 9.1.4</Desc>
+			<Layout>AlpenDelay_DC23</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC24'>
+			<Desc>AlpenDelay 9.0.6</Desc>
+			<Layout>AlpenDelay_DC24</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC25'>
+			<Desc>AlpenDelay 9.1.6</Desc>
+			<Layout>AlpenDelay_DC25</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC26'>
+			<Desc>AlpenDelay HOA 1st</Desc>
+			<Layout>AlpenDelay_DC26</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC27'>
+			<Desc>AlpenDelay HOA 2nd</Desc>
+			<Layout>AlpenDelay_DC27</Layout>
+		</Plugin>
+		<Plugin manID='DyCo' prodID='DyCp' plugID='DC28'>
+			<Desc>AlpenDelay HOA 3rd</Desc>
+			<Layout>AlpenDelay_DC28</Layout>
+		</Plugin>
+		<PTLayout name='AlpenDelay_DC01'>
 			<PageTable type='Av41' pgsz='12'>
 				<Page num='1'>
 					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
@@ -79,7 +163,7 @@
 				<Page num='3'><ID>UnitMode</ID></Page>
 			</PageTable>
 		</PTLayout>
-		<PTLayout name='AlpenDelay_Multi'>
+		<PTLayout name='AlpenDelay_DC02'>
 			<PageTable type='Av41' pgsz='12'>
 				<Page num='1'>
 					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
@@ -88,16 +172,10 @@
 					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
 				</Page>
 				<Page num='2'>
-					<Cell row='1' col='1' knobID='ChDelay4' inOutButtonID='' selectButtonID=''/>
-					<Cell row='2' col='1' knobID='ChDelay3' inOutButtonID='' selectButtonID=''/>
-					<Cell row='3' col='1' knobID='ChDelay2' inOutButtonID='' selectButtonID=''/>
-					<Cell row='4' col='1' knobID='ChDelay1' inOutButtonID='' selectButtonID=''/>
-				</Page>
-				<Page num='3'>
-					<Cell row='1' col='1' knobID='ChDelay8' inOutButtonID='' selectButtonID=''/>
-					<Cell row='2' col='1' knobID='ChDelay7' inOutButtonID='' selectButtonID=''/>
-					<Cell row='3' col='1' knobID='ChDelay6' inOutButtonID='' selectButtonID=''/>
-					<Cell row='4' col='1' knobID='ChDelay5' inOutButtonID='' selectButtonID=''/>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
 				</Page>
 				<FirstPg cat='0'>0</FirstPg>
 				<FirstPg cat='1'>0</FirstPg>
@@ -121,16 +199,10 @@
 					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
 				</Page>
 				<Page num='2'>
-					<Cell row='1' col='1' knobID='ChDelay4' inOutButtonID='' selectButtonID=''/>
-					<Cell row='2' col='1' knobID='ChDelay3' inOutButtonID='' selectButtonID=''/>
-					<Cell row='3' col='1' knobID='ChDelay2' inOutButtonID='' selectButtonID=''/>
-					<Cell row='4' col='1' knobID='ChDelay1' inOutButtonID='' selectButtonID=''/>
-				</Page>
-				<Page num='3'>
-					<Cell row='1' col='1' knobID='ChDelay8' inOutButtonID='' selectButtonID=''/>
-					<Cell row='2' col='1' knobID='ChDelay7' inOutButtonID='' selectButtonID=''/>
-					<Cell row='3' col='1' knobID='ChDelay6' inOutButtonID='' selectButtonID=''/>
-					<Cell row='4' col='1' knobID='ChDelay5' inOutButtonID='' selectButtonID=''/>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
 				</Page>
 				<FirstPg cat='0'>0</FirstPg>
 				<FirstPg cat='1'>0</FirstPg>
@@ -150,14 +222,2352 @@
 				<Page num='1'><ID>MasterBypassID</ID></Page>
 				<Page num='2'><ID>MasterDelay</ID></Page>
 				<Page num='3'><ID>UnitMode</ID></Page>
-				<Page num='4'><ID>ChDelay1</ID></Page>
-				<Page num='5'><ID>ChDelay2</ID></Page>
-				<Page num='6'><ID>ChDelay3</ID></Page>
-				<Page num='7'><ID>ChDelay4</ID></Page>
-				<Page num='8'><ID>ChDelay5</ID></Page>
-				<Page num='9'><ID>ChDelay6</ID></Page>
-				<Page num='10'><ID>ChDelay7</ID></Page>
-				<Page num='11'><ID>ChDelay8</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyR</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC03'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC04'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyS' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyS' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyS</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC05'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyR</ID></Page>
+				<Page num='6'><ID>DlyLs</ID></Page>
+				<Page num='7'><ID>DlyRs</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC06'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLs</ID></Page>
+				<Page num='8'><ID>DlyRs</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC07'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLs</ID></Page>
+				<Page num='8'><ID>DlyRs</ID></Page>
+				<Page num='9'><ID>DlyLFE</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC08'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyRc' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLc' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyRc' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLc' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyLc</ID></Page>
+				<Page num='6'><ID>DlyC</ID></Page>
+				<Page num='7'><ID>DlyRc</ID></Page>
+				<Page num='8'><ID>DlyR</ID></Page>
+				<Page num='9'><ID>DlyLs</ID></Page>
+				<Page num='10'><ID>DlyRs</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC09'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyRc' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLc' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyRc' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLc' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyLc</ID></Page>
+				<Page num='6'><ID>DlyC</ID></Page>
+				<Page num='7'><ID>DlyRc</ID></Page>
+				<Page num='8'><ID>DlyR</ID></Page>
+				<Page num='9'><ID>DlyLs</ID></Page>
+				<Page num='10'><ID>DlyRs</ID></Page>
+				<Page num='11'><ID>DlyLFE</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC10'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLss</ID></Page>
+				<Page num='8'><ID>DlyRss</ID></Page>
+				<Page num='9'><ID>DlyLsr</ID></Page>
+				<Page num='10'><ID>DlyRsr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC11'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLss</ID></Page>
+				<Page num='8'><ID>DlyRss</ID></Page>
+				<Page num='9'><ID>DlyLsr</ID></Page>
+				<Page num='10'><ID>DlyRsr</ID></Page>
+				<Page num='11'><ID>DlyLFE</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC12'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLs</ID></Page>
+				<Page num='8'><ID>DlyRs</ID></Page>
+				<Page num='9'><ID>DlyLts</ID></Page>
+				<Page num='10'><ID>DlyRts</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC13'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyRts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyRts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLs</ID></Page>
+				<Page num='8'><ID>DlyRs</ID></Page>
+				<Page num='9'><ID>DlyLFE</ID></Page>
+				<Page num='10'><ID>DlyLts</ID></Page>
+				<Page num='11'><ID>DlyRts</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC14'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLs</ID></Page>
+				<Page num='8'><ID>DlyRs</ID></Page>
+				<Page num='9'><ID>DlyLtf</ID></Page>
+				<Page num='10'><ID>DlyRtf</ID></Page>
+				<Page num='11'><ID>DlyLtr</ID></Page>
+				<Page num='12'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC15'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLs' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRs' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLs</ID></Page>
+				<Page num='8'><ID>DlyRs</ID></Page>
+				<Page num='9'><ID>DlyLFE</ID></Page>
+				<Page num='10'><ID>DlyLtf</ID></Page>
+				<Page num='11'><ID>DlyRtf</ID></Page>
+				<Page num='12'><ID>DlyLtr</ID></Page>
+				<Page num='13'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC16'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRts' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRts' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLss</ID></Page>
+				<Page num='8'><ID>DlyRss</ID></Page>
+				<Page num='9'><ID>DlyLsr</ID></Page>
+				<Page num='10'><ID>DlyRsr</ID></Page>
+				<Page num='11'><ID>DlyLts</ID></Page>
+				<Page num='12'><ID>DlyRts</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC17'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLts' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRts' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLts' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLss</ID></Page>
+				<Page num='8'><ID>DlyRss</ID></Page>
+				<Page num='9'><ID>DlyLsr</ID></Page>
+				<Page num='10'><ID>DlyRsr</ID></Page>
+				<Page num='11'><ID>DlyLFE</ID></Page>
+				<Page num='12'><ID>DlyLts</ID></Page>
+				<Page num='13'><ID>DlyRts</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC18'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLss</ID></Page>
+				<Page num='8'><ID>DlyRss</ID></Page>
+				<Page num='9'><ID>DlyLsr</ID></Page>
+				<Page num='10'><ID>DlyRsr</ID></Page>
+				<Page num='11'><ID>DlyLtf</ID></Page>
+				<Page num='12'><ID>DlyRtf</ID></Page>
+				<Page num='13'><ID>DlyLtr</ID></Page>
+				<Page num='14'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC19'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLss</ID></Page>
+				<Page num='8'><ID>DlyRss</ID></Page>
+				<Page num='9'><ID>DlyLsr</ID></Page>
+				<Page num='10'><ID>DlyRsr</ID></Page>
+				<Page num='11'><ID>DlyLFE</ID></Page>
+				<Page num='12'><ID>DlyLtf</ID></Page>
+				<Page num='13'><ID>DlyRtf</ID></Page>
+				<Page num='14'><ID>DlyLtr</ID></Page>
+				<Page num='15'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC20'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLss</ID></Page>
+				<Page num='8'><ID>DlyRss</ID></Page>
+				<Page num='9'><ID>DlyLsr</ID></Page>
+				<Page num='10'><ID>DlyRsr</ID></Page>
+				<Page num='11'><ID>DlyLtf</ID></Page>
+				<Page num='12'><ID>DlyRtf</ID></Page>
+				<Page num='13'><ID>DlyLtm</ID></Page>
+				<Page num='14'><ID>DlyRtm</ID></Page>
+				<Page num='15'><ID>DlyLtr</ID></Page>
+				<Page num='16'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC21'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyRtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyRtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLss</ID></Page>
+				<Page num='8'><ID>DlyRss</ID></Page>
+				<Page num='9'><ID>DlyLsr</ID></Page>
+				<Page num='10'><ID>DlyRsr</ID></Page>
+				<Page num='11'><ID>DlyLFE</ID></Page>
+				<Page num='12'><ID>DlyLtf</ID></Page>
+				<Page num='13'><ID>DlyRtf</ID></Page>
+				<Page num='14'><ID>DlyLtm</ID></Page>
+				<Page num='15'><ID>DlyRtm</ID></Page>
+				<Page num='16'><ID>DlyLtr</ID></Page>
+				<Page num='17'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC22'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLw' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRw' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLw' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRw' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLw</ID></Page>
+				<Page num='8'><ID>DlyRw</ID></Page>
+				<Page num='9'><ID>DlyLss</ID></Page>
+				<Page num='10'><ID>DlyRss</ID></Page>
+				<Page num='11'><ID>DlyLsr</ID></Page>
+				<Page num='12'><ID>DlyRsr</ID></Page>
+				<Page num='13'><ID>DlyLtf</ID></Page>
+				<Page num='14'><ID>DlyRtf</ID></Page>
+				<Page num='15'><ID>DlyLtr</ID></Page>
+				<Page num='16'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC23'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLw' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRw' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLw' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRw' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLw</ID></Page>
+				<Page num='8'><ID>DlyRw</ID></Page>
+				<Page num='9'><ID>DlyLss</ID></Page>
+				<Page num='10'><ID>DlyRss</ID></Page>
+				<Page num='11'><ID>DlyLsr</ID></Page>
+				<Page num='12'><ID>DlyRsr</ID></Page>
+				<Page num='13'><ID>DlyLFE</ID></Page>
+				<Page num='14'><ID>DlyLtf</ID></Page>
+				<Page num='15'><ID>DlyRtf</ID></Page>
+				<Page num='16'><ID>DlyLtr</ID></Page>
+				<Page num='17'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC24'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLw' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRw' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyLtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtm' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLw' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRw' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyLtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRtm' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLw</ID></Page>
+				<Page num='8'><ID>DlyRw</ID></Page>
+				<Page num='9'><ID>DlyLss</ID></Page>
+				<Page num='10'><ID>DlyRss</ID></Page>
+				<Page num='11'><ID>DlyLsr</ID></Page>
+				<Page num='12'><ID>DlyRsr</ID></Page>
+				<Page num='13'><ID>DlyLtf</ID></Page>
+				<Page num='14'><ID>DlyRtf</ID></Page>
+				<Page num='15'><ID>DlyLtm</ID></Page>
+				<Page num='16'><ID>DlyRtm</ID></Page>
+				<Page num='17'><ID>DlyLtr</ID></Page>
+				<Page num='18'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC25'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLw' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRw' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtm' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyLw' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyR' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyC' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyL' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyLsr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyRss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLss' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRw' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyRtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtf' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyLFE' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyRsr' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='DlyRtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyLtr' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyRtm' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyLtm' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyL</ID></Page>
+				<Page num='5'><ID>DlyC</ID></Page>
+				<Page num='6'><ID>DlyR</ID></Page>
+				<Page num='7'><ID>DlyLw</ID></Page>
+				<Page num='8'><ID>DlyRw</ID></Page>
+				<Page num='9'><ID>DlyLss</ID></Page>
+				<Page num='10'><ID>DlyRss</ID></Page>
+				<Page num='11'><ID>DlyLsr</ID></Page>
+				<Page num='12'><ID>DlyRsr</ID></Page>
+				<Page num='13'><ID>DlyLFE</ID></Page>
+				<Page num='14'><ID>DlyLtf</ID></Page>
+				<Page num='15'><ID>DlyRtf</ID></Page>
+				<Page num='16'><ID>DlyLtm</ID></Page>
+				<Page num='17'><ID>DlyRtm</ID></Page>
+				<Page num='18'><ID>DlyLtr</ID></Page>
+				<Page num='19'><ID>DlyRtr</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC26'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyX' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyZ' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyY' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyW' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyX' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyZ' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyY' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyW' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyW</ID></Page>
+				<Page num='5'><ID>DlyY</ID></Page>
+				<Page num='6'><ID>DlyZ</ID></Page>
+				<Page num='7'><ID>DlyX</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC27'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyX' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyZ' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyY' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyW' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyA7' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyA6' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyA5' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA4' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA8' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyX' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyZ' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyY' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyW' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyA7' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyA6' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyA5' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA4' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA8' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyW</ID></Page>
+				<Page num='5'><ID>DlyY</ID></Page>
+				<Page num='6'><ID>DlyZ</ID></Page>
+				<Page num='7'><ID>DlyX</ID></Page>
+				<Page num='8'><ID>DlyA4</ID></Page>
+				<Page num='9'><ID>DlyA5</ID></Page>
+				<Page num='10'><ID>DlyA6</ID></Page>
+				<Page num='11'><ID>DlyA7</ID></Page>
+				<Page num='12'><ID>DlyA8</ID></Page>
+			</PageTable>
+		</PTLayout>
+		<PTLayout name='AlpenDelay_DC28'>
+			<PageTable type='Av41' pgsz='12'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyX' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyZ' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyY' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyW' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyA7' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyA6' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyA5' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA4' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyA11' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyA10' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyA9' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA8' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='DlyA15' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyA14' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyA13' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA12' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='Av48' pgsz='96'>
+				<Page num='1'>
+					<Cell row='1' col='1' knobID='' inOutButtonID='MasterBypassID' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='' inOutButtonID='UnitMode' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='MasterDelay' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='2'>
+					<Cell row='1' col='1' knobID='DlyX' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyZ' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyY' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyW' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='3'>
+					<Cell row='1' col='1' knobID='DlyA7' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyA6' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyA5' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA4' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='4'>
+					<Cell row='1' col='1' knobID='DlyA11' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyA10' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyA9' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA8' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<Page num='5'>
+					<Cell row='1' col='1' knobID='DlyA15' inOutButtonID='' selectButtonID=''/>
+					<Cell row='2' col='1' knobID='DlyA14' inOutButtonID='' selectButtonID=''/>
+					<Cell row='3' col='1' knobID='DlyA13' inOutButtonID='' selectButtonID=''/>
+					<Cell row='4' col='1' knobID='DlyA12' inOutButtonID='' selectButtonID=''/>
+				</Page>
+				<FirstPg cat='0'>0</FirstPg>
+				<FirstPg cat='1'>0</FirstPg>
+				<FirstPg cat='2'>0</FirstPg>
+				<FirstPg cat='4'>0</FirstPg>
+				<FirstPg cat='8'>0</FirstPg>
+				<FirstPg cat='16'>0</FirstPg>
+				<FirstPg cat='32'>0</FirstPg>
+				<FirstPg cat='64'>0</FirstPg>
+				<FirstPg cat='128'>0</FirstPg>
+				<FirstPg cat='256'>0</FirstPg>
+				<FirstPg cat='512'>0</FirstPg>
+				<FirstPg cat='1024'>0</FirstPg>
+				<FirstPg cat='2048'>0</FirstPg>
+			</PageTable>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'><ID>MasterBypassID</ID></Page>
+				<Page num='2'><ID>MasterDelay</ID></Page>
+				<Page num='3'><ID>UnitMode</ID></Page>
+				<Page num='4'><ID>DlyW</ID></Page>
+				<Page num='5'><ID>DlyY</ID></Page>
+				<Page num='6'><ID>DlyZ</ID></Page>
+				<Page num='7'><ID>DlyX</ID></Page>
+				<Page num='8'><ID>DlyA4</ID></Page>
+				<Page num='9'><ID>DlyA5</ID></Page>
+				<Page num='10'><ID>DlyA6</ID></Page>
+				<Page num='11'><ID>DlyA7</ID></Page>
+				<Page num='12'><ID>DlyA8</ID></Page>
+				<Page num='13'><ID>DlyA9</ID></Page>
+				<Page num='14'><ID>DlyA10</ID></Page>
+				<Page num='15'><ID>DlyA11</ID></Page>
+				<Page num='16'><ID>DlyA12</ID></Page>
+				<Page num='17'><ID>DlyA13</ID></Page>
+				<Page num='18'><ID>DlyA14</ID></Page>
+				<Page num='19'><ID>DlyA15</ID></Page>
 			</PageTable>
 		</PTLayout>
 	</PageTableLayouts>
@@ -170,49 +2580,204 @@
 			<name typ='PgTL' sz='3'>Unt</name>
 			<name typ='PgTL' sz='4'>Unit</name>
 		</Ctrl>
-		<Ctrl ID='ChDelay1'>
-			<name typ='PgTL' sz='3'>D 1</name>
-			<name typ='PgTL' sz='5'>Dly 1</name>
-			<name typ='PgTL' sz='7'>Delay 1</name>
-		</Ctrl>
-		<Ctrl ID='ChDelay2'>
-			<name typ='PgTL' sz='3'>D 2</name>
-			<name typ='PgTL' sz='5'>Dly 2</name>
-			<name typ='PgTL' sz='7'>Delay 2</name>
-		</Ctrl>
-		<Ctrl ID='ChDelay3'>
-			<name typ='PgTL' sz='3'>D 3</name>
-			<name typ='PgTL' sz='5'>Dly 3</name>
-			<name typ='PgTL' sz='7'>Delay 3</name>
-		</Ctrl>
-		<Ctrl ID='ChDelay4'>
-			<name typ='PgTL' sz='3'>D 4</name>
-			<name typ='PgTL' sz='5'>Dly 4</name>
-			<name typ='PgTL' sz='7'>Delay 4</name>
-		</Ctrl>
-		<Ctrl ID='ChDelay5'>
-			<name typ='PgTL' sz='3'>D 5</name>
-			<name typ='PgTL' sz='5'>Dly 5</name>
-			<name typ='PgTL' sz='7'>Delay 5</name>
-		</Ctrl>
-		<Ctrl ID='ChDelay6'>
-			<name typ='PgTL' sz='3'>D 6</name>
-			<name typ='PgTL' sz='5'>Dly 6</name>
-			<name typ='PgTL' sz='7'>Delay 6</name>
-		</Ctrl>
-		<Ctrl ID='ChDelay7'>
-			<name typ='PgTL' sz='3'>D 7</name>
-			<name typ='PgTL' sz='5'>Dly 7</name>
-			<name typ='PgTL' sz='7'>Delay 7</name>
-		</Ctrl>
-		<Ctrl ID='ChDelay8'>
-			<name typ='PgTL' sz='3'>D 8</name>
-			<name typ='PgTL' sz='5'>Dly 8</name>
-			<name typ='PgTL' sz='7'>Delay 8</name>
-		</Ctrl>
 		<Ctrl ID='MasterBypassID'>
 			<name typ='PgTL' sz='3'>Byp</name>
 			<name typ='PgTL' sz='6'>Bypass</name>
+		</Ctrl>
+		<Ctrl ID='DlyL'>
+			<name typ='PgTL' sz='3'>L  </name>
+			<name typ='PgTL' sz='5'>D L  </name>
+			<name typ='PgTL' sz='7'>Dly L  </name>
+		</Ctrl>
+		<Ctrl ID='DlyR'>
+			<name typ='PgTL' sz='3'>R  </name>
+			<name typ='PgTL' sz='5'>D R  </name>
+			<name typ='PgTL' sz='7'>Dly R  </name>
+		</Ctrl>
+		<Ctrl ID='DlyC'>
+			<name typ='PgTL' sz='3'>C  </name>
+			<name typ='PgTL' sz='5'>D C  </name>
+			<name typ='PgTL' sz='7'>Dly C  </name>
+		</Ctrl>
+		<Ctrl ID='DlyS'>
+			<name typ='PgTL' sz='3'>S  </name>
+			<name typ='PgTL' sz='5'>D S  </name>
+			<name typ='PgTL' sz='7'>Dly S  </name>
+		</Ctrl>
+		<Ctrl ID='DlyLs'>
+			<name typ='PgTL' sz='3'>Ls </name>
+			<name typ='PgTL' sz='5'>D Ls </name>
+			<name typ='PgTL' sz='7'>Dly Ls </name>
+		</Ctrl>
+		<Ctrl ID='DlyRs'>
+			<name typ='PgTL' sz='3'>Rs </name>
+			<name typ='PgTL' sz='5'>D Rs </name>
+			<name typ='PgTL' sz='7'>Dly Rs </name>
+		</Ctrl>
+		<Ctrl ID='DlyLFE'>
+			<name typ='PgTL' sz='3'>LFE</name>
+			<name typ='PgTL' sz='5'>D LFE</name>
+			<name typ='PgTL' sz='7'>Dly LFE</name>
+		</Ctrl>
+		<Ctrl ID='DlyLc'>
+			<name typ='PgTL' sz='3'>Lc </name>
+			<name typ='PgTL' sz='5'>D Lc </name>
+			<name typ='PgTL' sz='7'>Dly Lc </name>
+		</Ctrl>
+		<Ctrl ID='DlyRc'>
+			<name typ='PgTL' sz='3'>Rc </name>
+			<name typ='PgTL' sz='5'>D Rc </name>
+			<name typ='PgTL' sz='7'>Dly Rc </name>
+		</Ctrl>
+		<Ctrl ID='DlyLss'>
+			<name typ='PgTL' sz='3'>Lss</name>
+			<name typ='PgTL' sz='5'>D Lss</name>
+			<name typ='PgTL' sz='7'>Dly Lss</name>
+		</Ctrl>
+		<Ctrl ID='DlyRss'>
+			<name typ='PgTL' sz='3'>Rss</name>
+			<name typ='PgTL' sz='5'>D Rss</name>
+			<name typ='PgTL' sz='7'>Dly Rss</name>
+		</Ctrl>
+		<Ctrl ID='DlyLsr'>
+			<name typ='PgTL' sz='3'>Lsr</name>
+			<name typ='PgTL' sz='5'>D Lsr</name>
+			<name typ='PgTL' sz='7'>Dly Lsr</name>
+		</Ctrl>
+		<Ctrl ID='DlyRsr'>
+			<name typ='PgTL' sz='3'>Rsr</name>
+			<name typ='PgTL' sz='5'>D Rsr</name>
+			<name typ='PgTL' sz='7'>Dly Rsr</name>
+		</Ctrl>
+		<Ctrl ID='DlyLts'>
+			<name typ='PgTL' sz='3'>Lts</name>
+			<name typ='PgTL' sz='5'>D Lts</name>
+			<name typ='PgTL' sz='7'>Dly Lts</name>
+		</Ctrl>
+		<Ctrl ID='DlyRts'>
+			<name typ='PgTL' sz='3'>Rts</name>
+			<name typ='PgTL' sz='5'>D Rts</name>
+			<name typ='PgTL' sz='7'>Dly Rts</name>
+		</Ctrl>
+		<Ctrl ID='DlyLtf'>
+			<name typ='PgTL' sz='3'>Ltf</name>
+			<name typ='PgTL' sz='5'>D Ltf</name>
+			<name typ='PgTL' sz='7'>Dly Ltf</name>
+		</Ctrl>
+		<Ctrl ID='DlyRtf'>
+			<name typ='PgTL' sz='3'>Rtf</name>
+			<name typ='PgTL' sz='5'>D Rtf</name>
+			<name typ='PgTL' sz='7'>Dly Rtf</name>
+		</Ctrl>
+		<Ctrl ID='DlyLtr'>
+			<name typ='PgTL' sz='3'>Ltr</name>
+			<name typ='PgTL' sz='5'>D Ltr</name>
+			<name typ='PgTL' sz='7'>Dly Ltr</name>
+		</Ctrl>
+		<Ctrl ID='DlyRtr'>
+			<name typ='PgTL' sz='3'>Rtr</name>
+			<name typ='PgTL' sz='5'>D Rtr</name>
+			<name typ='PgTL' sz='7'>Dly Rtr</name>
+		</Ctrl>
+		<Ctrl ID='DlyLtm'>
+			<name typ='PgTL' sz='3'>Ltm</name>
+			<name typ='PgTL' sz='5'>D Ltm</name>
+			<name typ='PgTL' sz='7'>Dly Ltm</name>
+		</Ctrl>
+		<Ctrl ID='DlyRtm'>
+			<name typ='PgTL' sz='3'>Rtm</name>
+			<name typ='PgTL' sz='5'>D Rtm</name>
+			<name typ='PgTL' sz='7'>Dly Rtm</name>
+		</Ctrl>
+		<Ctrl ID='DlyLw'>
+			<name typ='PgTL' sz='3'>Lw </name>
+			<name typ='PgTL' sz='5'>D Lw </name>
+			<name typ='PgTL' sz='7'>Dly Lw </name>
+		</Ctrl>
+		<Ctrl ID='DlyRw'>
+			<name typ='PgTL' sz='3'>Rw </name>
+			<name typ='PgTL' sz='5'>D Rw </name>
+			<name typ='PgTL' sz='7'>Dly Rw </name>
+		</Ctrl>
+		<Ctrl ID='DlyW'>
+			<name typ='PgTL' sz='3'>W  </name>
+			<name typ='PgTL' sz='5'>D W  </name>
+			<name typ='PgTL' sz='7'>Dly W  </name>
+		</Ctrl>
+		<Ctrl ID='DlyY'>
+			<name typ='PgTL' sz='3'>Y  </name>
+			<name typ='PgTL' sz='5'>D Y  </name>
+			<name typ='PgTL' sz='7'>Dly Y  </name>
+		</Ctrl>
+		<Ctrl ID='DlyZ'>
+			<name typ='PgTL' sz='3'>Z  </name>
+			<name typ='PgTL' sz='5'>D Z  </name>
+			<name typ='PgTL' sz='7'>Dly Z  </name>
+		</Ctrl>
+		<Ctrl ID='DlyX'>
+			<name typ='PgTL' sz='3'>X  </name>
+			<name typ='PgTL' sz='5'>D X  </name>
+			<name typ='PgTL' sz='7'>Dly X  </name>
+		</Ctrl>
+		<Ctrl ID='DlyA4'>
+			<name typ='PgTL' sz='3'>A4 </name>
+			<name typ='PgTL' sz='5'>D A4 </name>
+			<name typ='PgTL' sz='7'>Dly A4 </name>
+		</Ctrl>
+		<Ctrl ID='DlyA5'>
+			<name typ='PgTL' sz='3'>A5 </name>
+			<name typ='PgTL' sz='5'>D A5 </name>
+			<name typ='PgTL' sz='7'>Dly A5 </name>
+		</Ctrl>
+		<Ctrl ID='DlyA6'>
+			<name typ='PgTL' sz='3'>A6 </name>
+			<name typ='PgTL' sz='5'>D A6 </name>
+			<name typ='PgTL' sz='7'>Dly A6 </name>
+		</Ctrl>
+		<Ctrl ID='DlyA7'>
+			<name typ='PgTL' sz='3'>A7 </name>
+			<name typ='PgTL' sz='5'>D A7 </name>
+			<name typ='PgTL' sz='7'>Dly A7 </name>
+		</Ctrl>
+		<Ctrl ID='DlyA8'>
+			<name typ='PgTL' sz='3'>A8 </name>
+			<name typ='PgTL' sz='5'>D A8 </name>
+			<name typ='PgTL' sz='7'>Dly A8 </name>
+		</Ctrl>
+		<Ctrl ID='DlyA9'>
+			<name typ='PgTL' sz='3'>A9 </name>
+			<name typ='PgTL' sz='5'>D A9 </name>
+			<name typ='PgTL' sz='7'>Dly A9 </name>
+		</Ctrl>
+		<Ctrl ID='DlyA10'>
+			<name typ='PgTL' sz='3'>A10</name>
+			<name typ='PgTL' sz='5'>D A10</name>
+			<name typ='PgTL' sz='7'>Dly A10</name>
+		</Ctrl>
+		<Ctrl ID='DlyA11'>
+			<name typ='PgTL' sz='3'>A11</name>
+			<name typ='PgTL' sz='5'>D A11</name>
+			<name typ='PgTL' sz='7'>Dly A11</name>
+		</Ctrl>
+		<Ctrl ID='DlyA12'>
+			<name typ='PgTL' sz='3'>A12</name>
+			<name typ='PgTL' sz='5'>D A12</name>
+			<name typ='PgTL' sz='7'>Dly A12</name>
+		</Ctrl>
+		<Ctrl ID='DlyA13'>
+			<name typ='PgTL' sz='3'>A13</name>
+			<name typ='PgTL' sz='5'>D A13</name>
+			<name typ='PgTL' sz='7'>Dly A13</name>
+		</Ctrl>
+		<Ctrl ID='DlyA14'>
+			<name typ='PgTL' sz='3'>A14</name>
+			<name typ='PgTL' sz='5'>D A14</name>
+			<name typ='PgTL' sz='7'>Dly A14</name>
+		</Ctrl>
+		<Ctrl ID='DlyA15'>
+			<name typ='PgTL' sz='3'>A15</name>
+			<name typ='PgTL' sz='5'>D A15</name>
+			<name typ='PgTL' sz='7'>Dly A15</name>
 		</Ctrl>
 	</ControlNamesVariations>
 	<Editor vers='1.3.7.1'>
@@ -220,14 +2785,45 @@
 			<CtrlID>MasterBypassID</CtrlID>
 			<CtrlID>UnitMode</CtrlID>
 			<CtrlID>MasterDelay</CtrlID>
-			<CtrlID>ChDelay1</CtrlID>
-			<CtrlID>ChDelay2</CtrlID>
-			<CtrlID>ChDelay3</CtrlID>
-			<CtrlID>ChDelay4</CtrlID>
-			<CtrlID>ChDelay5</CtrlID>
-			<CtrlID>ChDelay6</CtrlID>
-			<CtrlID>ChDelay7</CtrlID>
-			<CtrlID>ChDelay8</CtrlID>
+			<CtrlID>DlyL</CtrlID>
+			<CtrlID>DlyR</CtrlID>
+			<CtrlID>DlyC</CtrlID>
+			<CtrlID>DlyS</CtrlID>
+			<CtrlID>DlyLs</CtrlID>
+			<CtrlID>DlyRs</CtrlID>
+			<CtrlID>DlyLFE</CtrlID>
+			<CtrlID>DlyLc</CtrlID>
+			<CtrlID>DlyRc</CtrlID>
+			<CtrlID>DlyLss</CtrlID>
+			<CtrlID>DlyRss</CtrlID>
+			<CtrlID>DlyLsr</CtrlID>
+			<CtrlID>DlyRsr</CtrlID>
+			<CtrlID>DlyLts</CtrlID>
+			<CtrlID>DlyRts</CtrlID>
+			<CtrlID>DlyLtf</CtrlID>
+			<CtrlID>DlyRtf</CtrlID>
+			<CtrlID>DlyLtr</CtrlID>
+			<CtrlID>DlyRtr</CtrlID>
+			<CtrlID>DlyLtm</CtrlID>
+			<CtrlID>DlyRtm</CtrlID>
+			<CtrlID>DlyLw</CtrlID>
+			<CtrlID>DlyRw</CtrlID>
+			<CtrlID>DlyW</CtrlID>
+			<CtrlID>DlyY</CtrlID>
+			<CtrlID>DlyZ</CtrlID>
+			<CtrlID>DlyX</CtrlID>
+			<CtrlID>DlyA4</CtrlID>
+			<CtrlID>DlyA5</CtrlID>
+			<CtrlID>DlyA6</CtrlID>
+			<CtrlID>DlyA7</CtrlID>
+			<CtrlID>DlyA8</CtrlID>
+			<CtrlID>DlyA9</CtrlID>
+			<CtrlID>DlyA10</CtrlID>
+			<CtrlID>DlyA11</CtrlID>
+			<CtrlID>DlyA12</CtrlID>
+			<CtrlID>DlyA13</CtrlID>
+			<CtrlID>DlyA14</CtrlID>
+			<CtrlID>DlyA15</CtrlID>
 		</DiscCtrls>
 	</Editor>
 </PageTables>
